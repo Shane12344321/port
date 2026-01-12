@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5C4A3D;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E8DCCA;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.left-section h1 {
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #E8DCCA;
+    text-align: right;
+}
+
+.center-card {
+    background-color: #E8DCCA;
+    color: #3E3229;
+    border-radius: 40px;
+    padding: 60px 40px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.age {
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.role {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.github-link {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.github-link img {
+    width: 40px;
+    /* Approx 2.5rem */
+    height: auto;
+}
+
+
+.logo-box {
+    background-color: #E8DCCA;
+    color: #3E3229;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+/* Semantic Layout Styles */
+.semantic-body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.semantic-body header {
+    background-color: #3E3229;
+    color: #E8DCCA;
+    padding: 20px;
+    text-align: center;
+}
+
+.semantic-body nav {
+    background-color: #4a3c31;
+    padding: 10px;
+}
+
+.semantic-body nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.semantic-body nav a {
+    color: #E8DCCA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.semantic-body .main-container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+}
+
+.semantic-body main {
+    flex: 3;
+    background-color: #E8DCCA;
+    color: #3E3229;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.semantic-body aside {
+    flex: 1;
+    background-color: #dccbb6;
+    color: #3E3229;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    /* Center content in aside */
+}
+
+.profile-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 3px solid #3E3229;
+}
+
+.chess-photo {
+    width: 200px;
+    /* Smaller width as requested */
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #3E3229;
+    float: right;
+    /* CSS floating image */
+    margin: 0 0 10px 20px;
+    /* Margins for spacing */
+}
+
+.gokart-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #3E3229;
+    float: right;
+    margin: 0 0 10px 20px;
+}
+
+.semantic-body footer {
+    background-color: #3E3229;
+    color: #E8DCCA;
+    padding: 20px;
+    text-align: center;
+}
